@@ -1,0 +1,12 @@
+{
+	"index.html": {
+		"resources": [
+			"subpages/sub1.html"
+		],
+		"refer": [
+			"subpages/sub3.html",
+			"subpages/sub1.html",
+			"subpages/sub2.html"
+		]
+	}
+}

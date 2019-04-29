@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "H58157EB9",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "moveapptwo",/*应用名称，程序桌面图标名称*/
@@ -135,5 +135,30 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"subpages/sub1.html"
+				],
+				"refer": [
+					"subpages/sub3.html",
+					"subpages/sub2.html"
+				],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"js/mui.min.js",
+				"js/jquery-1.11.0.js",
+				"fonts/mui.ttf",
+				"css/iconfont.css",
+				"fonts/iconfont.ttf",
+				"css/mui.css",
+				"README.md"
+			]
+		}
+	}
 }
